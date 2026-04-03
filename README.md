@@ -1,7 +1,7 @@
 # Witch training（Unity 6.2）ポートフォリオ
 
 Unity 6.2 で制作した、3Dアクションゲームです。
-敵を倒して強化しながら生存し、ボスを攻略します。
+徐々に強くなる敵を倒しながらプレイヤーを強化し、より長い生存時間を目指します。
 
 ## Play（WebGL）
 - Unity Play: https://play.unity.com/ja/games/ad359cb4-3a9b-4762-a911-60face0ca70c/witch-training
