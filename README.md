@@ -1,2 +1,37 @@
-# witch-training-portfolio-code
-It’s a 3D action game with shooting elements. Defeat enemies that grow stronger over time, power up your player, and aim to survive as long as possible.
+# Witch training（Unity 6.2）ポートフォリオ
+
+Unity 6.2 で制作した、3Dアクションゲームです。
+敵を倒して強化しながら生存し、ボスを攻略します。
+
+## Play（WebGL）
+- Unity Play: https://play.unity.com/ja/games/ad359cb4-3a9b-4762-a911-60face0ca70c/witch-training
+
+## 操作方法
+- WASD: 移動
+- Space: ジャンプ
+- マウス: 視点操作
+- 左クリック: 弾
+- 右クリック: レイン・アーケイン
+- F: ビーム
+- P: ポーズ
+
+## 主な実装内容
+- プレイヤー移動（WASD）と Animator 制御
+- カメラ追従
+- 弾/ビーム発射
+- 敵スポナー（時間経過で敵/ボス出現）
+- アイテムドロップ（確率でパワーアップアイテムのドロップ、低確率で大量にドロップする敵出現）
+- 強化要素（取得するたび攻撃力/弾速が上昇）
+- 時間経過で敵/ボスのHPが増加
+- ボス弱点（頭）ヒットでダメージ倍率
+- タイトル/ポーズ/リザルトの画面遷移
+- SE再生（攻撃ヒット/アイテム取得/被弾）
+- ダメージ数値ポップアップ表示
+
+## 動作環境
+- PCブラウザでプレイ可能
+- Unity: 6000.2.8f1（Unity 6.2）
+
+## リポジトリについて
+このリポジトリは **自作スクリプト中心**の公開です。
+（有料アセット等の配布制限がある素材は含めていません）
